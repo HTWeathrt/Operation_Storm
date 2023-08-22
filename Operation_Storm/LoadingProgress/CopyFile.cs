@@ -14,19 +14,16 @@ using Operation_Storm.Update_Cls;
 namespace Operation_Storm.LoadingProgress
 {
     internal class CopyFile
-    { 
+    {
         public string Cls_version { get => cls_version; set => cls_version = value; }
         public string Cls_Quanlty { get => cls_Quanlty; set => cls_Quanlty = value; }
 
         public void CopyfileXA()
         {
-            //string jsonPart = "Ink\\config.json";
-            //string jsonContent = File.ReadAllText(jsonPart);
-            //JObject jsonObject = JObject.Parse(jsonString);
-            //JsonObject jsonObject = JsonConvert.DeserializeObject<JsonObject>(jsonContent);
-            //string FoderEQP = jsonObject.EqpRecipeFoder;
+
+
             string LinkFileOpen = "Product\\IS.txt";
-            //int CounterSum = CouterLine(LinkFileOpen);
+
             BaseForm baseForm = new BaseForm();
             using (StreamReader reader = new StreamReader(LinkFileOpen))
             {
@@ -54,7 +51,7 @@ namespace Operation_Storm.LoadingProgress
                     string User_Name = User_login();
                     string AXMC;
                     i++;
-                    
+
                     baseForm.ReportProgress(i);
 
                     if (File.Exists(FileFODER))
@@ -69,9 +66,9 @@ namespace Operation_Storm.LoadingProgress
                         string activerH = classifier.EqpRecipe.ActiveH;
                         string activerV = classifier.EqpRecipe.ActiveV;
                         //
-                        cls_update.Cls_Name(cls_version, FileConnect,Line,User_Name);
+                        cls_update.Cls_Name(cls_version, FileConnect, Line, User_Name);
                         //
-                        update.SQL_connector(cls_version, cls_Quanlty, panelSpec, activerH, activerV ,Line, User_Name);
+                        update.SQL_connector(cls_version, cls_Quanlty, panelSpec, activerH, activerV, Line, User_Name);
                     }
                     else
                     {
@@ -83,12 +80,12 @@ namespace Operation_Storm.LoadingProgress
             }
             //
         }
-        private static int CouterLine (string FilePatch)
+        private static int CouterLine(string FilePatch)
         {
             int counter = 0;
             using (StreamReader stream = new StreamReader(FilePatch))
             {
-                while(stream.ReadLine() != null)
+                while (stream.ReadLine() != null)
                 {
                     counter++;
                 }
@@ -102,7 +99,7 @@ namespace Operation_Storm.LoadingProgress
             OpenPrefence jsonObject = JsonConvert.DeserializeObject<OpenPrefence>(JsonRead);
             string Administrator = jsonObject.User.Administrator;
             string VH_ID = jsonObject.User.ID_VH;
-            string User_ID = ""+ Administrator + "_"+ VH_ID + "";
+            string User_ID = "" + Administrator + "_" + VH_ID + "";
             return User_ID;
 
         }
@@ -129,9 +126,9 @@ namespace Operation_Storm.LoadingProgress
             string updatedJsonString = jsonObject.ToString();
             // Ghi chuỗi JSON mới vào file
             File.WriteAllText(filePath, updatedJsonString);
-            
+
         }
-        
+
 
     }
     class Openjson
@@ -144,15 +141,55 @@ namespace Operation_Storm.LoadingProgress
         public string Qualifier { get; set; }
         public string PanelSpec { get; set; }
         public string ActiveH { get; set; }
-        public string ActiveV { get; set; } 
+        public string ActiveV { get; set; }
     }
     class JsonObject
     {
-        public string ClassifierFoder { get;set; }
-        public string EqpRecipeFoder { get;set; }
+        public string ClassifierFoder { get; set; }
+        public string EqpRecipeFoder { get; set; }
         public string PanelSpecRecipeFoder { get; set; }
         public string Recipe { get; set; }
         public string SystemConfig { get; set; }
 
     }
+
+    public class Rootobject
+    {
+        public User User { get; set; }
+        public Sever Sever { get; set; }
+        public string TimerInterval { get; set; }
+        public bool Autoupdate { get; set; }
+        public File_FOF[] File_FOF { get; set; }
+    }
+
+    public class User
+    {
+        public string Administrator { get; set; }
+        public string ID_VH { get; set; }
+    }
+
+    public class Sever
+    {
+        public string SeverHost { get; set; }
+        public Database Database { get; set; }
+        public string table { get; set; }
+    }
+
+    public class Database
+    {
+        public string ink_aoi { get; set; }
+        public string mcl_sr_aoi { get; set; }
+        public string cg_aoi { get; set; }
+        public string assy_aoi { get; set; }
+        public string assy_ami { get; set; }
+        public string lt_ami { get; set; }
+    }
+
+    public class File_FOF
+    {
+        public string FileFolder { get; set; }
+        public string Name { get; set; }
+        public string Typefile { get; set; }
+    }
+
 }
