@@ -1,0 +1,5 @@
+\\10.119.160.67\d\CG_Inspection\Recipe,user,culih1,D:\CG_AOI,304,A_OP
+\\10.119.160.69\d\CG_Inspection\Recipe,user,culih1,D:\CG_AOI,304,B_OP
+\\10.119.160.71\d\CG_Inspection\Recipe,user,culih1,D:\CG_AOI,305,A_OP
+\\10.119.160.73\d\CG_Inspection\Recipe,user,culih1,D:\CG_AOI,305,B_OP
+\\10.119.160.75\d\CG_Inspection\Recipe,user,culih1,D:\CG_AOI,306,A_OP

@@ -1,0 +1,7 @@
+{
+	"ClassifierFoder" : "ClassifierRecipe",
+	"EqpRecipeFoder": "EqpRecipe",
+	"PanelSpecRecipeFoder" : "PanelSpecRecipe",
+	"Recipe" : "Recipe.json",
+	"SystemConfig" : "SystemConfig.json"
+}

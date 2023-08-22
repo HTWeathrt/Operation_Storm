@@ -1,0 +1,32 @@
+10.119.161.89,pri,pripri,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,301_AOPPC
+10.119.161.96,pri,pripri,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,301BOPPC
+10.119.135.47,pri,pripri,d\InkSealing_AOI\Bin\Recipe,EqpRecipe,D964_13072023.rcp,302AOPPC
+10.119.135.45,pri,pripri,d\InkSealing_AOI\Bin\Recipe,EqpRecipe,D964_13072023.rcp,302BOPPC
+10.119.160.222,pri,isaoi0722!,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,303AOPPC
+10.119.160.221,pri,isaoi0722!,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,303BOPPC
+10.119.160.227,pri,isaoi0722!,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,304AOPPC
+10.119.160.225,pri,isaoi0722!,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,304BOPPC
+10.119.160.232,pri,isaoi0722!,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,305AOPPC
+10.119.160.228,pri,isaoi0722!,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,305BOPPC
+10.119.212.204,pri,isaoi0722!,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,306AOPPC
+10.119.212.100,pri,isaoi0722!,d\Ink_Sealing\Bin\Recipe,EqpRecipe,D954.rcp,306BOPPC
+10.121.46.191,pri,pripri,\d\Ink_Sealing_AOI\Bin\Recipe,EqpRecipe,D954_0717.rcp,402AOPPC
+10.121.46.171,pri,pripri,\d\Ink_Sealing_AOI\Bin\Recipe,EqpRecipe,D954_0717.rcp,402BOPPC
+10.121.43.64 ,pri,pripri,\d\Ink_Sealing\Bin\Recipe,EqpRecipe,D953.rcp,404AOPPC
+10.121.43.92 ,pri,pripri,\d\Ink_Sealing\Bin\Recipe,EqpRecipe,D953.rcp,404BOPPC
+10.121.41.120 ,pri,pripri,\d\Ink_Sealing\Bin\Recipe,EqpRecipe,D963_0530.rcp,405AOPPC
+10.121.41.118 ,pri,pripri,\d\Ink_Sealing\Bin\Recipe,EqpRecipe,D963_0530.rcp,405BOPPC
+10.121.42.200 ,pri,pripri,\d\Ink_Sealing\Bin\Recipe,EqpRecipe,D953.rcp,406AOPPC
+10.121.42.199 ,pri,pripri,\d\Ink_Sealing\Bin\Recipe,EqpRecipe,D953.rcp,406BOPPC
+10.121.53.120 ,pri,pripri,\d\InkSealing\Bin\Recipe,EqpRecipe,D953.rcp,505AOPPC
+10.121.53.122 ,pri,pripri,\d\InkSealing\Bin\Recipe,EqpRecipe,D953.rcp,505BOPPC
+10.121.52.11,user,pripri,\d\InksealingAOI\Recipe,EqpRecipe,D953.rcp,501AOPPC
+10.121.56.20,user,pripri,\d\InksealingAOI\Recipe,EqpRecipe,D953.rcp,501BOPPC
+10.121.52.17,user,pripri,\d\InksealingAOI\Recipe,EqpRecipe,D953.rcp,502AOPPC
+10.121.52.16,user,pripri,\d\InksealingAOI\Recipe,EqpRecipe,D953.rcp,502BOPPC
+10.121.56.26,user,pripri,\d\InksealingAOI\Recipe,EqpRecipe,D953.rcp,503AOPPC
+10.121.56.27,user,pripri,\d\InksealingAOI\Recipe,EqpRecipe,D953.rcp,503BOPPC
+10.121.56.22,user,pripri,\d\InkSealing_AOI\Recipe,EqpRecipe,D953.rcp,504AOPPC
+10.121.56.23,user,pripri,\d\InkSealing_AOI\Recipe,EqpRecipe,D953.rcp,504BOPPC
+10.121.56.162,pri,pripri,\d\InkSealingAOI\Recipe,EqpRecipe,D954.rcp,506AOPPC
+10.121.56.161,pri,pripri,\d\InkSealingAOI\Recipe,EqpRecipe,D954.rcp,506BOPPC
